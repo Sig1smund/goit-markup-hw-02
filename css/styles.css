@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --action-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+
+body {
+  font-family: Roboto, Raleway;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: var(--action-color);
+}
+
+.web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--action-color);
+}
+.studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.button-section button {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+}
+
+button:hover,
+button:focus {
+  color: var(--action-color);
+}
+
+button:active {
+  background-color: var(--action-color);
+  color: #ffffff;
+}
+
+.gallery p {
+  color: var(--secondary-text-color);
+}
+.gallery .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
