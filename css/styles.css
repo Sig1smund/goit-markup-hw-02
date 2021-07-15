@@ -38,6 +38,34 @@ ul {
   letter-spacing: 0.03em;
   color: #000000;
 }
+
+.auth-bar a:hover,
+.auth-bar a:focus {
+  color: var(--action-color);
+}
+
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.hero-button {
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+}
+
 .button-section button {
   position: absolute;
   width: 73px;
