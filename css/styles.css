@@ -35,8 +35,8 @@ body a {
   text-decoration: none;
 }
 
-.navbar a:hover,
-.navbar a:focus {
+.navbar .nav-list a:hover,
+.navbar .nav-list a:focus {
   color: var(--action-color);
 }
 
@@ -56,6 +56,13 @@ body a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.navbar .nav-list a {
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .contacts-bar a {
@@ -105,20 +112,27 @@ button:focus button:active {
   color: #ffffff;
 }
 
-.advantages-list .title,
-.examples,
-.team .team-list {
-  font-family: Roboto;
+.advantages-list .title {
   font-style: 700;
   font-size: 14px;
   line-height: 1;
   color: var(--primary-text-color);
 }
 
+.examples .works-examples,
+.team .team-list {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
 .team .worker-name {
   font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2;
   color: var(--primary-text-color);
 }
@@ -180,7 +194,7 @@ button:focus button:active {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   text-align: left;
   font-family: Roboto;
