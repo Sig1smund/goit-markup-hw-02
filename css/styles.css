@@ -2,17 +2,37 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --action-color: #2196f3;
-  --background-color: #e5e5e5;
+  --background-color: #ececec;
 }
 
 body {
-  font-family: Roboto, Raleway;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
   background-color: var(--background-color);
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
-ul {
+body ul {
   list-style: none;
+}
+
+body button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: Roboto;
+  background-color: #f5f4faa1;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+body a {
+  text-decoration: none;
 }
 
 .navbar a:hover,
@@ -22,77 +42,147 @@ ul {
 
 .web {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--action-color);
 }
+
 .studio {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
 }
 
-.auth-bar a:hover,
-.auth-bar a:focus {
+.contacts-bar a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
+.contacts-bar a:hover,
+.contacts-bar a:focus {
   color: var(--action-color);
 }
 
 .hero-section {
   background-color: #2f303a;
 }
-.hero-title {
+
+.hero-section .hero-title {
   font-family: Roboto;
   font-size: 44px;
   font-style: normal;
-  line-height: 60px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: 900;
   color: #ffffff;
 }
 
-.hero-button {
-  height: 50px;
-  width: 200px;
-  left: 700px;
-  top: 430px;
-  border-radius: 4px;
-}
-
-.button-section button {
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
-}
-
-button:hover,
-button:focus {
-  color: var(--action-color);
-}
-
-button:active {
+.hero-section .hero-button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
   background-color: var(--action-color);
   color: #ffffff;
 }
 
-.gallery p {
+button:hover,
+button:focus button:active {
+  background-color: var(--action-color);
+  color: #ffffff;
+}
+
+.advantages-list .title,
+.examples,
+.team .team-list {
+  font-family: Roboto;
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--primary-text-color);
+}
+
+.team .worker-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+
+.team .worker-position {
+  font-family: Roboto;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-size: 16px;
   color: var(--secondary-text-color);
 }
+
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  font-style: normal;
+}
+
+.adress .physical-adress {
+  font-family: Roboto;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.adress a {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo .studio-lighten {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .gallery .title {
   font-family: Roboto;
-  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 1.7;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  font-weight: bold;
+}
+
+.gallery .filter {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-family: Roboto;
+  color: var(--secondary-text-color);
 }
