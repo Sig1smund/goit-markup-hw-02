@@ -35,6 +35,10 @@ body a {
   text-decoration: none;
 }
 
+body a:visited {
+  color: var(--primary-text-color);
+}
+
 .navbar .nav-list a:hover,
 .navbar .nav-list a:focus {
   color: var(--action-color);
@@ -145,6 +149,26 @@ button:focus button:active {
   color: var(--secondary-text-color);
 }
 
+.gallery .title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.gallery .filter {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-family: Roboto;
+  color: var(--secondary-text-color);
+}
+
 .footer {
   background-color: #2f303a;
 }
@@ -179,24 +203,4 @@ button:focus button:active {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.gallery .title {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.7;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
-
-.gallery .filter {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  text-align: left;
-  font-family: Roboto;
-  color: var(--secondary-text-color);
 }
